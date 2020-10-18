@@ -6,6 +6,7 @@ navbar:
   right:
 output:
   html_document:
-    theme: journal
-    highlight: espresso
+    theme: readable
+    highlight: kate
+    css: 'styles.css'
     
