@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>JIN Dun-hong</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 61px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h2 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h3 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h4 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h5 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h6 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">JIN Dun-hong 金敦泓</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div id="about-me" class="section level1">
+<h1>About me</h1>
+<hr style="margin-top:0px; border-width: 1px">
+<div>
+<p><img src="files/image/profile.jpg" style="width:25%; margin-right: 30px" align="left"></p>
+<p>I am an assistant professor of finance in <a href="https://www.fbe.hku.hk/">the University of Hong Kong</a>. I obtained my Ph.D in Finance from <a href="https://www.sbs.ox.ac.uk/">University of Oxford</a> in 2020, under the supervision of Prof. Thomas Noe and Prof. Thomas Hellmann.</p>
+<p>My main research field is the intersection of asset pricing and corporate finance with a focus on asset management, including (i) the information, incentive and contract issues, and (ii) the financial stability and macroeconomic implications.</p>
+<p>Please see my <a href="files/cv.pdf">curriculum vitae</a>.</p>
+<h3 id="contact">Contact</h3>
+<p><span> <i class="fa fa-envelope"></i> <a href="mailto:dhjin@hku.hk">dhjin[at]hku.hk</a> </span><br> <span> <i class="fa fa-university"></i> The University of Hong Kong </span><br> <span> <i class="fa fa-map-marked-alt"></i> 1008 KK Leung Building, Pokfulam Road, Hong Kong SAR, China </span><br></p>
+</div>
+<p><br></p>
+</div>
+<div id="research" class="section level1">
+<h1>Research</h1>
+<hr style="margin-top:0px; border-width: 1px">
+<div>
+<span> <strong>The Atalanta Effect: How High-Powered Compensation Reduces Risk-Taking</strong> </span><br> <span> <u>Dunhong Jin</u>, Thomas Noe </span><br> <span> <em>Revise and Resubmit, Journal of Finance</em> </span><br> <span> <a href="files/paper/DynamicContest.pdf"><i class="fa fa-file-pdf"></i> paper</a> </span><br>
+</p>
+</div>
+<div>
+<span> <strong>Swing Pricing and Fragility in Open-End Mutual Funds</strong> </span><br> <span> <u>Dunhong Jin</u>, Marcin Kacperczyk, Bige Kahraman, Felix Suntheim </span><br> <span> <em>Revise and Resubmit, Review of Financial Studies</em> </span><br> <span> <a href="files/paper/SwingPricing.pdf"><i class="fa fa-file-pdf"></i> paper</a> <a href="https://www.ft.com/content/6eecb9f0-8200-11e9-9935-ad75bb96c849"><i class="fa fa-link"></i> Financial Times</a> <a href="https://www.lesechos.fr/finance-marches/gestion-actifs/comment-h2o-fait-face-aux-sorties-sur-ses-fonds-1031951"><i class="fa fa-link"></i> Les Echos</a> <a href="https://www.imf.org/en/Publications/WP/Issues/2019/11/01/Swing-Pricing-and-Fragility-in-Open-end-Mutual-Funds-48729"><i class="fa fa-link"></i> IMF</a> <a href="https://www.fca.org.uk/insight/swing-or-not-swing-alternative-pricing-rules-and-financial-stability"><i class="fa fa-link"></i> FCA</a> </span><br>
+</p>
+</div>
+<div>
+<span> <strong>The Drivers and Inhibitors of Factor Investing</strong> </span><br> <span> <u>Dunhong Jin</u> </span><br> <span> <a href="files/paper/FactorInvesting.pdf"><i class="fa fa-file-pdf"></i> paper</a> </span><br>
+</p>
+</div>
+<div>
+<span> <strong>Ranking and Risk Taking: The Case of Hedge Funds</strong> </span><br> <span> <u>Dunhong Jin</u>, Thomas Noe </span><br> <span> <a href="files/paper/RankingHedgeFunds.pdf"><i class="fa fa-file-pdf"></i> paper</a> </span><br>
+</p>
+</div>
+<p><br></p>
+</div>
+<div id="education" class="section level1">
+<h1>Education</h1>
+<hr style="margin-top:0px; border-width: 1px">
+<div class="column">
+<p>
+<img src="files/image/ox_logo.png" style="width:55px; margin-right:15px" align="left"> <span> Ph.D. in Finance </span><br> <span class="ban2"> <strong>University of Oxford</strong> </span><br> <span> <em>2015 - 2020</em> </span>
+</p>
+</div>
+<div class="column">
+<p>
+<img src="files/image/ox_logo.png" style="width:55px; margin-right:15px" align="left"> <span> M.Sc. in Mathematical Finance </span><br> <span class="ban2"> <strong>University of Oxford</strong> </span><br> <span> <em>2014 - 2015</em> </span>
+</p>
+</div>
+<div class="column">
+<p>
+<img src="files/image/fdu_logo.png" style="width:55px; margin-right:15px" align="left"> <span> B.Sc. in Mathematics </span><br> <span class="ban2"> <strong>Fudan University</strong> </span><br> <span> <em>2010 - 2014</em> </span>
+</p>
+</div>
+<p><br></p>
+</div>
+<div id="personal" class="section level1">
+<h1>Personal</h1>
+<hr style="margin-top:0px; border-width: 1px">
+<div>
+<p><img src="files/image/interests.JPG" style="width:23.5%; margin-right: 30px" align="left"></p>
+<ul>
+<li>Piano (10th grade)</li>
+<li>Flute (9th grade)</li>
+<li>Electronic keyboard (9th grade)</li>
+<li>Violin</li>
+<li>Viol</li>
+<li>Organ</li>
+<li>Chinese painting</li>
+<li>Tea ceremony</li>
+<li>Seal carving</li>
+<li>Waltz</li>
+</ul>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

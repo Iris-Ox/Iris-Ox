@@ -1,0 +1,181 @@
+---
+pagetitle: JIN Dun-hong
+---
+
+
+# About me
+<hr style="margin-top:0px; border-width: 1px">
+
+
+<div>
+<img src="files/image/profile.jpg" style="width:25%; margin-right: 30px" align="left">
+
+I am an assistant professor of finance in [the University of Hong Kong](https://www.fbe.hku.hk/). I obtained my Ph.D in Finance from [University of Oxford](https://www.sbs.ox.ac.uk/) in 2020, under the supervision of Prof. Thomas Noe and Prof. Thomas Hellmann.
+
+My main research field is the intersection of asset pricing and corporate finance with a focus on asset management, including (i) the information, incentive and contract issues, and (ii) the financial stability and macroeconomic implications.
+
+
+Please see my [curriculum vitae](files/cv.pdf).
+
+
+### Contact
+<span>
+<i class="fa fa-envelope"></i> [dhjin[at]hku.hk](mailto:dhjin\@hku.hk)
+</span><br>
+<span>
+<i class="fa fa-university"></i> The University of Hong Kong
+</span><br>
+<span>
+<i class="fa fa-map-marked-alt"></i> 1008 KK Leung Building, Pokfulam Road, Hong Kong SAR, China
+</span><br>
+</div>
+
+<br>
+
+
+# Research
+<hr style="margin-top:0px; border-width: 1px">
+
+<div>
+<span>
+**The Atalanta Effect: How High-Powered Compensation Reduces Risk-Taking**
+</span><br>
+<span>
+<u>Dunhong Jin</u>, Thomas Noe
+</span><br>
+<span>
+*Revise and Resubmit, Journal of Finance*
+</span><br>
+<span>
+[<i class="fa fa-file-pdf"></i> paper](files/paper/DynamicContest.pdf)
+</span><br>
+</p>
+</div>
+
+
+
+<div>
+<span>
+**Swing Pricing and Fragility in Open-End Mutual Funds**
+</span><br>
+<span>
+<u>Dunhong Jin</u>, Marcin Kacperczyk, Bige Kahraman, Felix Suntheim
+</span><br>
+<span>
+*Revise and Resubmit, Review of Financial Studies*
+</span><br>
+<span>
+[<i class="fa fa-file-pdf"></i> paper](files/paper/SwingPricing.pdf)
+[<i class="fa fa-link"></i> Financial Times](https://www.ft.com/content/6eecb9f0-8200-11e9-9935-ad75bb96c849)
+[<i class="fa fa-link"></i> Les Echos](https://www.lesechos.fr/finance-marches/gestion-actifs/comment-h2o-fait-face-aux-sorties-sur-ses-fonds-1031951)
+[<i class="fa fa-link"></i> IMF](https://www.imf.org/en/Publications/WP/Issues/2019/11/01/Swing-Pricing-and-Fragility-in-Open-end-Mutual-Funds-48729)
+[<i class="fa fa-link"></i> FCA](https://www.fca.org.uk/insight/swing-or-not-swing-alternative-pricing-rules-and-financial-stability)
+</span><br>
+</p>
+</div>
+
+   
+    
+<div>
+<span>
+**The Drivers and Inhibitors of Factor Investing**
+</span><br>
+<span>
+<u>Dunhong Jin</u>
+</span><br>
+<span>
+[<i class="fa fa-file-pdf"></i> paper](files/paper/FactorInvesting.pdf)
+</span><br>
+</p>
+</div>
+
+
+
+<div>
+<span>
+**Ranking and Risk Taking: The Case of Hedge Funds**
+</span><br>
+<span>
+<u>Dunhong Jin</u>, Thomas Noe
+</span><br>
+<span>
+[<i class="fa fa-file-pdf"></i> paper](files/paper/RankingHedgeFunds.pdf)
+</span><br>
+</p>
+</div>
+<br>
+
+# Education
+<hr style="margin-top:0px; border-width: 1px">
+
+<div class="column">
+<p>
+<img src="files/image/ox_logo.png" style="width:55px; margin-right:15px" align="left">
+<span>
+Ph.D. in Finance
+</span><br>
+<span class="ban2">
+**University of Oxford**
+</span><br>
+<span>
+*2015 - 2020*
+</span> 
+</p>
+</div>
+
+
+<div class="column">
+<p>
+<img src="files/image/ox_logo.png" style="width:55px; margin-right:15px" align="left">
+<span>
+M.Sc. in Mathematical Finance
+</span><br>
+<span class="ban2">
+**University of Oxford**
+</span><br>
+<span>
+*2014 - 2015*
+</span> 
+</p>
+</div>
+
+
+
+<div class="column">
+<p>
+<img src="files/image/fdu_logo.png" style="width:55px; margin-right:15px" align="left">
+<span>
+B.Sc. in Mathematics
+</span><br>
+<span class="ban2">
+**Fudan University**
+</span><br>
+<span>
+*2010 - 2014*
+</span> 
+</p>
+</div>
+<br>
+
+
+
+# Personal
+<hr style="margin-top:0px; border-width: 1px">
+
+<div>
+<img src="files/image/interests.jpg" style="width:23.5%; margin-right: 30px" align="left">
+
+- Piano (10th grade)
+- Flute (9th grade)
+- Electronic keyboard (9th grade)
+- Violin
+- Viol
+- Organ
+- Chinese painting
+- Tea ceremony
+- Seal carving
+- Waltz 
+</div>
+
+
+

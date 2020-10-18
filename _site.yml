@@ -1,0 +1,11 @@
+name: "JIN Dun-hong 金敦泓"
+output_dir: "."
+navbar:
+  title: "JIN Dun-hong 金敦泓"
+  left:
+  right:
+output:
+  html_document:
+    theme: journal
+    highlight: espresso
+    
